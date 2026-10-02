@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tile Meadow Support</title>
+<style>
+:root { --ground:#eef2e8; --surface:#fff; --ink:#26302a; --muted:#66705f; --line:#d8e0cf; --accent:#5a4fa0; }
+@media (prefers-color-scheme: dark) {
+  :root { --ground:#161a15; --surface:#20261f; --ink:#eef3ea; --muted:#a3ad9c; --line:#343d31; --accent:#b3a8f5; }
+}
+body { margin:0; background:var(--ground); color:var(--ink); font:17px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; }
+main { max-width:680px; margin:0 auto; padding:40px 16px 64px; }
+header { display:flex; align-items:center; gap:16px; margin-bottom:28px; }
+h1 { margin:0; font-size:30px; line-height:1.1; }
+header p { margin:4px 0 0; color:var(--muted); }
+h2 { font-size:19px; margin:28px 0 6px; }
+section { background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:4px 20px 18px; margin:20px 0 18px; }
+p, li { margin:8px 0; }
+a { color:var(--accent); }
+.muted, footer { color:var(--muted); }
+footer { font-size:14px; margin-top:32px; }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div><h1>Tile Meadow</h1><p>Match pairs of tiles along a meadow trail</p></div>
+</header>
+
+<section>
+  <h2>Contact</h2>
+  <p>Questions, bug reports and ideas are all welcome. Email <a href="mailto:tiledoku.app@outlook.com">tiledoku.app@outlook.com</a> and I'll get back to you.</p>
+  <p>If something went wrong, it helps to mention your device, the iOS version, the level and what you were doing.</p>
+</section>
+
+<section>
+  <h2>How do I play?</h2>
+  <p>Tap two matching tiles to clear them. A tile can only be picked when it's free: nothing lies on top of it,
+  and its left or right side is open. Clear the whole board to finish the level and open the next one on the map.
+  Every board can be cleared.</p>
+
+  <h2>How are stars earned?</h2>
+  <p>Three stars for a level cleared without help, two if you used a hint, and one if you shuffled the board.
+  You can replay any cleared level to improve your stars.</p>
+
+  <h2>What are boosts?</h2>
+  <p>A hint or a shuffle costs one boost. You start with 5, and once a day your balance is topped back up to 3
+  if it's lower. Boosts you buy never expire.</p>
+
+  <h2>What is the Unlimited Month?</h2>
+  <p>Hints and shuffles are free for 30 days from the day you buy it. It's a single payment and does not renew,
+  so there is nothing to cancel. Your boosts are kept for afterwards.</p>
+
+  <h2>Is anything locked?</h2>
+  <p>No. Every level, every board layout, every tile style and the daily puzzle are free. Purchases only add
+  boosts or unlimited hints and shuffles.</p>
+
+  <h2>How do I restore my purchases?</h2>
+  <p>Tap the boost counter at the top of the map to open the shop, then tap <b>Restore Purchases</b>. Make sure
+  you're signed in with the same Apple Account you bought with. An Unlimited Month carries over to a new device
+  this way; boosts are kept on the device they were bought on.</p>
+
+  <h2>When does the daily puzzle change?</h2>
+  <p>At midnight on your device. It's the same board for everyone that day.</p>
+
+  <h2>Where is my progress saved?</h2>
+  <p>On your device. Deleting the app deletes your map progress, stars and boost balance.</p>
+</section>
+
+<p><a href="privacy.html">Privacy policy</a></p>
+<footer>© 2026 Alex Luong</footer>
+</main>
+</body>
+</html>
